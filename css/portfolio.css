@@ -44,28 +44,33 @@ body,html{
    margin-left: 20px;
    display: flex;
    flex-direction: column;
-
+   
    align-items: flex-start;
   }
 
+  .p_text{
+    margin-left: 2rem;
+  }
 
-.sum_style{
-  font-size: 100px;
-  margin-top: 100px;
-}
-
-.main_tytle{
-  font-size: 20rem;
+  .prodject_txt_top h1{
+    font-size: 20rem;
     font-family: Sequel,sans-serif;
     height: 200px;
- margin-left: -5px;
-}
+  }
 
-.main_txt_style{
-  font-size: 35px;
-  margin-top: -20px;
-}
+  .text_style_top h1{
+    font-family: Sequel,sans-serif;
+    font-size: 70px;
+  }
 
+  .text_style_top p{
+    font-size: 35px;
+  }
+
+
+   .text_style_top{
+margin-top: 200px;
+  }
 .project_p{
   font-size: 21px;
   margin-left: 15px;
@@ -85,14 +90,12 @@ body,html{
  .project_ul{
    font-size: 21px;
    line-height: 2.4;
-   margin-bottom: 100px;
 
  }
 
  .project_fix{
    color: #00C49A;
    font-size: 31px;
-   margin-left: 1%;
  }
 .ul_style{
   margin-right: 20px;
