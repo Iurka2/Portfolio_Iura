@@ -61,9 +61,9 @@ margin-top: 200px;
   }
 
   .prodject_txt_top h1{
-    font-size: 20rem;
+    font-size: 20vw;
     font-family: Sequel,sans-serif;
-    height: 700px;
+
   }
 
 
@@ -126,4 +126,10 @@ margin-top: 200px;
     width: 100%;
     align-items: baseline;
     gap: 20px;
+  }
+
+  @media (max-width: 900px) {
+    .img_slide{
+      margin-left: 10%;
+    }
   }

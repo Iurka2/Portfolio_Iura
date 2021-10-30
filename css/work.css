@@ -141,3 +141,66 @@ span {
     font-size: 24px;
   }
 }
+
+@media only screen and (max-width: 700px) {
+
+  .flex_container{
+    display: flex;
+  
+
+  justify-content: space-between;
+    align-items: center;
+   
+  }
+  
+  .item3{
+font-size: 1.5rem;
+margin-left: 20px;
+  
+    }
+  
+  .item1{
+
+    font-size: 1.5rem;
+    margin-right: 20px;
+  }
+  
+  .item2{
+    font-family: Sequel,sans-serif;
+    font-size: 20px;
+    text-transform: capitalize;
+
+  
+  }
+
+  
+
+  span {
+    font-family: Sequel,sans-serif;
+    font-size: 2rem;
+    text-decoration: none;
+    color: #F1F0EA;
+  }
+
+  .navigation-item {
+    display: block;
+    user-select: none;
+    margin: 50px 0;
+  }
+  .navigation-wrapper ul {
+    margin-top: 100px;
+    margin-left: 20px;
+  
+    list-style: none;
+  
+  }
+  
+
+.footer_container{
+  margin-right: 10px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+ 
+ }
