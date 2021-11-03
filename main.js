@@ -67,7 +67,9 @@ function SmoothScroll(target, speed, smooth) {
 	}()
 }
 
-// TweenMax.to('#section',1, { height:"-100%", ease: "expo.inOut"})
+// gsap.to('#section',1,{})
 
 
 
+
+//toggles the orientation
